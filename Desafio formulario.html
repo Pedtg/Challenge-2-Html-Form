@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Desáfio 2 Formulário Html </title>
+</head>
+
+<body>
+    <h1> Desáfio 2 Formulário </h1>
+
+    <fieldset>
+        <legend> Cadastro </legend>
+
+        <form action="" method="post">
+
+            <label for="nome"> Nome:</label>
+            <br>
+            <input type="text" id="nome" name="nome" required>
+            <br>
+            <br>
+
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <br>
+
+            <label for="idade">Idade</label>
+            <br>
+            <input type="number" id="idade" name="idade" required min="12" />
+            <br>
+            <br>
+
+            <label for="data de nascimento">Data de Nascimento:</label>
+            <br>
+            <input type="date" id="data de nascimento" name="data de nascimento">
+            <br>
+            <br>
+
+            <label>Onde vc possui conta:</label>
+            <br>
+            <label>
+                <input type="checkbox" name="Instagran">
+                Instagran
+            </label>
+
+            <label>
+                <input type="checkbox" name="facebook">
+                Facebook
+            </label>
+
+            <label>
+                <input type="checkbox" name="Youtube">
+                Youtube
+            </label>
+            <br>
+            <br>
+
+            <label>
+                Sexo
+                <br>
+                <label>
+                    <input type="radio" name="genero" value="masculino">
+                    Masculino
+                </label>
+                <label>
+                    <input type="radio" Name="genero" value="feminino">
+                    Feminino
+                </label>
+                <br>
+                <br>
+
+                <label>
+                    Cor dos olhos
+                    <input type="color" name="cor-dos-olhos" value="#6A332A">
+                </label>
+                <br>
+                <br>
+
+                <label>Biografia
+                    <br>
+                    <textarea name="bio"></textarea>
+                </label>
+                <br>
+                <br>
+
+                <label>Foto do Perfil
+                    <br>
+                    <input type="file" name="arquivo" accept="image/.*">
+                </label>
+                <br>
+                <br>
+
+                <label> Telefone
+                    <br>
+                    <input type="tel" name="telefone">
+                </label>
+                <br>
+                <br>
+
+                <label>Link do Perfil do Facebook
+                    <br>
+                    <input type="url" name="url">
+                </label>
+                <br>
+                <br>
+
+                <label>Senha
+                    <br>
+                    <input type="password" name="senha" min="6" max="8" required>
+                </label>
+                <br>
+                <br>
+
+                <button type="reset" name="reset">Limpar</buttom>
+                <button type="submit" name="submit">Enviar Dados</buttom>
+
+        </form>
+    </fieldset>
+</body>
+
+</html>
